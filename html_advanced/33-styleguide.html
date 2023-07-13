@@ -1,26 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
+    <meta charset=utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Style Guide - Techium</title>
     <meta name="description" content="Techium is a digital agency">
+    <title>Styleguide - Techium</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-    <link rel="manifest" href="./site.webmanifest">
-    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" href="./favicon.png">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/styleguide.html">Style Guide</a></li>
-            </ul>
-        </nav>
     </header>
     <main>
         <section>
@@ -42,6 +31,8 @@
             <p>This is my subtitle</p>
             <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
         </section>
+        <br>
+        <!-- Lists -->
         <section>
             <header>
                 <h2>Lists</h2>
@@ -53,27 +44,24 @@
                     <li>Sagittis adipiscing lorem eleifend.</li>
                     <li>Felis enim feugiat dolore viverra.</li>
                 </ul>
-            </div>
-            <div>
                 <h3>Ordered</h3>
                 <ol>
                     <li>Dolor pulvinar etiam magna etiam.</li>
                     <li>Sagittis adipiscing lorem eleifend.</li>
                     <li>Felis enim feugiat dolore viverra.</li>
                 </ol>
-            </div>
-            <div>
                 <h3>Definition</h3>
                 <dl>
-                    <dt>Term: Definition List title</dt>
-                    <dd>Definition: Definition text.</dd>
-                    <dt>Term: Startup</dt>
-                    <dd>Definition: A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.</dd>
-                    <dt>Term: Water</dt>
-                    <dd>Definition: A colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain and is the basis of the fluids of living organisms.</dd>
+                    <dt>Definition List title</dt>
+                    <dd>Definition text.</dd>
+                    <dt>Startup</dt>
+                    <dd>A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.</dd>
+                    <dt>Water</dt>
+                    <dd>A colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain and is the basis of the fluids of living organisms.</dd>
                 </dl>
             </div>
         </section>
+        <br>
         <!-- Horizontal Rule -->
         <!-- <hr> -->
         <section>
@@ -85,6 +73,7 @@
                 <hr>
             </div>
         </section>
+        <br>
         <!-- Blockquotes -->
         <section>
             <header>
@@ -102,6 +91,7 @@
                 </blockquote>
             </div>
         </section>
+        <br>
         <!-- Typography -->
         <section>
             <!-- Typography -->
@@ -109,20 +99,21 @@
                 <h2>Typography</h2>
             </header>
             <div>
-                <p>320 Stewart Avenue, Unit 12<br>New York City NY 10001</p>
+                <address>320 Stewart Avenue, Unit 12<br>New York City NY 10001</address>
             </div>
             <div>
                 <pre>
                     <code>
-                        &lt;h2&gt;My title&lt;/h2&gt;
-                        &lt;p&gt;Proin lacus turpis, feugiat sit amet sollicitudin non, volutpat in libero. Aenean hendrerit ultrices nulla ac lobortis. Vestibulum consectetur nibh vel ante rhoncus faucibus.&lt;/p&gt;
+                        <h2>My title</h2>
+                        <p>Proin lacus turpis, feugiat sit amet sollicitudin non, volutpat in libero. Aenean hendrerit ultrices nulla ac lobortis. Vestibulum consectetur nibh vel ante rhoncus faucibus.</p>
                     </code>
                 </pre>
             </div>
             <div>
-                <p>Curabitur sit amet turpis cursus massa mollis <mark>highlighted</mark>. Duis finibus leo massa, eget dapibus erat finibus sed. Aenean condimentum sapien magna, eleifend <mark>highlighted</mark> mi consequat ut. Cras nec quam sed sapien ultricies <mark>highlighted</mark> ut sed metus. Each occurrence of the word <mark>highlighted</mark> should be highlighted.</p>
+                <p>Curabitur sit amet turpis cursus massa mollis <mark>highlighted</mark>. Duis finibus leo massa, eget dapibus erat finibus sed. Aenean condimentum sapien magna, eleifend <mark>highlighted</mark> mi consequat ut. Cras nec quam sed sapien ultricies <mark>highlighted</mark> ut sed metus.</p>
             </div>
         </section>
+        <br>
         <!-- Table -->
         <section>
             <!-- Table -->
@@ -130,6 +121,7 @@
                 <h2>Table</h2>
             </header>
             <table>
+                <caption>Star Wars Trilogy Data</caption>
                 <thead>
                     <tr>
                         <th scope="col">Title</th>
@@ -139,23 +131,25 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">The Shawshank Redemption</th>
-                        <td>Frank Darabont</td>
-                        <td>1994</td>
+                        <th scope="row">Star Wars: Episode IV - A New Hope</th>
+                        <td>George Lucas</td>
+                        <td>May 25th, 1977</td>
                     </tr>
                     <tr>
-                        <th scope="row">The Godfather</th>
-                        <td>Francis Ford Coppola</td>
-                        <td>1972</td>
+                        <th scope="row">Star Wars: Episode V - The Empire Strikes Back</th>
+                        <td>Irvin Kershner</td>
+                        <td>May 21st, 1980</td>
                     </tr>
                     <tr>
-                        <th scope="row">Pulp Fiction</th>
-                        <td>Quentin Tarantino</td>
-                        <td>1994</td>
+                        <th scope="row">Star Wars: Episode VI - Return of the Jedi</th>
+                        <td>Richard Marquand</td>
+                        <td>May 25th, 1983</td>
                     </tr>
                 </tbody>
             </table>
         </section>
     </main>
+    <footer>
+    </footer>
 </body>
 </html>
