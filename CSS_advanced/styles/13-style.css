@@ -46,19 +46,19 @@
     text-decoration: none;
   }
   
-  a[href]:not([href=""]) {
+  a[href]:only-child {
     color: var(--text-color);
   }
   
-  a[href]:visited:not([href=""]) {
+  a[href]:visited:only-child {
     font-style: italic;
   }
   
-  a[href]:hover:not([href=""]) {
+  a[href]:hover:only-child {
     text-decoration: underline;
   }
   
-  a[href]:active:not([href=""]) {
+  a[href]:active:only-child {
     background-color: var(--color-light-grey);
   }
   
